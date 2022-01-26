@@ -1,9 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* Container */
+.sm-container{
+    width: 60%;
+    margin: auto;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* HEADER */
+header{
+    background-color: #2e3a46;
+    height: 80px;
+}
+
+header .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 50px;
+}
+
+/* MAIN */
+main{
+    background-color: #1e2d3b;
+    height: calc( 100vh - 80px);
+    overflow-y: auto;
+}
+
+main .row{
+    margin-top: 40px;
+    text-align: center;
+}
+
+main .card{
+    background-color:#2e3a46;  
+}
+
+main .card img{
+    padding: 10px;
+}
+
+main .card h5{
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+main .card p{
+    color: #71747a;
 }
