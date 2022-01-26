@@ -25,7 +25,7 @@ require __DIR__.'/database.php';
     <!-- MAIN -->
     <main>
         <div class="sm-container">
-            <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4">
                 <?php foreach($database as $disc){ ?>
                     <div class="col">
                         <div class="card h-100">
