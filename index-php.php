@@ -20,7 +20,7 @@ require __DIR__.'/database.php';
             <img src="img/logo.png" alt="Logo">
         </div>
     </header>
-    <!-- EnND HEADER -->
+    <!-- END HEADER -->
 
     <!-- MAIN -->
     <main>
