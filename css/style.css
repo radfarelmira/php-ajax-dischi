@@ -15,12 +15,17 @@ header .container{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 header img{
     width: 50px;
 }
 
+header select{
+    width: 200px;
+
+}
 /* MAIN */
 main{
     background-color: #1e2d3b;
