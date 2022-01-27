@@ -16,7 +16,6 @@ const app = new Vue({
             })
             .then((response) => {
                 this.discs = response.data;
-                console.log(this.discs)
             });
         }
     },

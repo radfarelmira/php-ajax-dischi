@@ -14,7 +14,7 @@ if(empty($selected_genre)){
     foreach($database as $disc) {
         
         if($disc['genre'] === $selected_genre){
-            $filtered_discs = $disc;
+            $filtered_discs[] = $disc;
         }
     }
 
